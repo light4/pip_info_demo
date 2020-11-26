@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "pip_info"
+version = "0.1.0"
+description = ""
+authors = ["lightning1141 <lightning1141@gmail.com>"]
+
+[[tool.poetry.source]]
+name = "tuna"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.24.0"
+oslo-config = "^8.3.3"
+flask = "^1.1.2"
+gunicorn = "^20.0.4"
+sentry_sdk = "^0.19.4"
+flask_caching = "^1.9.0"
+flask_executor = "^0.9.4"
+flask_migrate = "^2.5.3"
+flask_sqlalchemy = "^2.4.4"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.10"
+ipdb = "^0.12.3"
+isort = "^4.3"
+yapf = "^0.29.0"
+flake8 = "^3.7"
+pytest = "^5.4.3"
+flask_debugtoolbar = "^0.11.0"
+
+[tool.poetry.scripts]
+pip-info = "pip_info.console:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
