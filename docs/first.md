@@ -312,10 +312,10 @@ def register_extensions(app, CONF):
 
 ### 参考连接
 
-poetry: [https://github.com/python-poetry/poetry][poetry]
-pip_info: [https://github.com/light4/pip_info_demo][pip_info_demo]
-vue-admin-template: [https://github.com/PanJiaChen/vue-admin-template][vue-admin-template]
-parceljs: [https://parceljs.org/getting_started.html][parceljs]
+- poetry: [https://github.com/python-poetry/poetry][poetry]
+- pip_info: [https://github.com/light4/pip_info_demo][pip_info_demo]
+- vue-admin-template: [https://github.com/PanJiaChen/vue-admin-template][vue-admin-template]
+- parceljs: [https://parceljs.org/getting_started.html][parceljs]
 
 ---
 
