@@ -22,7 +22,7 @@ flask_migrate = "^2.5.3"
 flask_sqlalchemy = "^2.4.4"
 
 [tool.poetry.dev-dependencies]
-ipython = "^7.10"
+ipython = "^7.31"
 ipdb = "^0.12.3"
 isort = "^4.3"
 yapf = "^0.29.0"
